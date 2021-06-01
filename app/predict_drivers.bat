@@ -1,0 +1,1 @@
+docker run -it --name my_app --rm --volume "%CD%/:/home/app_user/" driver_prediction
