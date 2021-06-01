@@ -10,6 +10,7 @@ Folowwing the rough guidelines provided by the CRISP-DM methodology, the paper c
 - Business Understanding - Paper Only
 - Data Understanding - Paper gives a summary of the performed exploratory data analysis, analysis steps can be found in Python Jupyter notebook in folder "Data_Understanding"
 - Data Preparation - Paper gives a summary of the permormed data preparation steps that enable the modelling step. All data preparation can be found in Python Jupyter notebook in folder "Data_Preparation
+For some reason, Github fails to render the notebook as provided. It can be viewed without having to download it to your own Jupyter instance through https://nbviewer.jupyter.org/github/KoenBothmer/rescue_drivers_prediction/blob/main/Data_Preparation/Data_Preparation.ipynb
 - Modelling - Paper describes and justifies the modelling steps employed, the employment itself can be found in the Python Jupyter notebook in folder "Modelling"
 - Deployment - Paper describes the choices made for deployment, folder "app" contains the final product as made available through Docker containerization, to be run as described in the next paragraph
 ## Launch
