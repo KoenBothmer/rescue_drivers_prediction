@@ -27,3 +27,5 @@ To get a general idea of the project it is sufficient to just load the notebooks
 * The script will output a file named "prediction.csv" which contains the predicted drivers needed supplemented by the predicted number of calls and the predicted number of sick drivers.
 * The script will add the content of the file in "yourdir/app/Updates" to file "df_up_to_date.csv" which will be the input for the next modelling step
 * The file in "yourdir/app/Updates" will be moved to folder "yourdir/app/Archive"
+### Host environment
+Allthough Docker makes it simple to ship applications over multiple operating systems, the script "predict_drivers.bat" is not guaranteed to run on host environments other than Windows. The volume mount to current directory using '%CD%' is host dependent and might need a small adjustment.
