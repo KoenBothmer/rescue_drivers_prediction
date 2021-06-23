@@ -6,7 +6,7 @@ Welcome to the repository supporting my case study report paper "Rescue Drivers 
 ### Main idea
 The main idea of this project is to use a given dataset to produce a predictive model that aids in the planning of rescue drivers for the Red Cross in Berlin. 
 ## Techniques used
-Folowwing the rough guidelines provided by the CRISP-DM methodology, the paper contains the folowwing chapters, supported by the repository as described:
+Folowing the rough guidelines provided by the CRISP-DM methodology, the paper contains the folowwing chapters, supported by the repository as described:
 - Business Understanding - Paper Only
 - Data Understanding - Paper gives a summary of the performed exploratory data analysis, analysis steps can be found in Python Jupyter notebook in folder "Data_Understanding"
 - Data Preparation - Paper gives a summary of the permormed data preparation steps that enable the modelling step. All data preparation can be found in Python Jupyter notebook in folder "Data_Preparation
