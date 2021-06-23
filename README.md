@@ -1,16 +1,17 @@
 # rescue_drivers_prediction
 Case study data science project for my data science studies
+## Please Note:
+For some reason, Github sometimes randomly fails to render the notebooks as provided. It can be viewed without having to download it to your own Jupyter instance through nbviewer, e.g.: https://nbviewer.jupyter.org/github/KoenBothmer/rescue_drivers_prediction/blob/main/Data_Preparation/Data_Preparation.ipynb
 
 ## Introduction
 Welcome to the repository supporting my case study report paper "Rescue Drivers Prediction" by Koen Bothmer. This paper and code repository were produced as an examination excercice for the class "Case Study: Model Engineering" at International University. This work was submitted to Turnitin but for the reference of those not involved in the class the paper was also included to this Github repository.
 ### Main idea
 The main idea of this project is to use a given dataset to produce a predictive model that aids in the planning of rescue drivers for the Red Cross in Berlin. 
 ## Techniques used
-Folowing the rough guidelines provided by the CRISP-DM methodology, the paper contains the folowwing chapters, supported by the repository as described:
+Folowing the rough guidelines provided by the CRISP-DM methodology, the paper contains the folowing chapters, supported by the repository as described:
 - Business Understanding - Paper Only
 - Data Understanding - Paper gives a summary of the performed exploratory data analysis, analysis steps can be found in Python Jupyter notebook in folder "Data_Understanding"
-- Data Preparation - Paper gives a summary of the permormed data preparation steps that enable the modelling step. All data preparation can be found in Python Jupyter notebook in folder "Data_Preparation
-For some reason, Github fails to render the notebook as provided. It can be viewed without having to download it to your own Jupyter instance through https://nbviewer.jupyter.org/github/KoenBothmer/rescue_drivers_prediction/blob/main/Data_Preparation/Data_Preparation.ipynb
+- Data Preparation - Paper gives a summary of the performed data preparation steps that enable the modelling step. All data preparation can be found in Python Jupyter notebook in folder "Data_Preparation
 - Modelling - Paper describes and justifies the modelling steps employed, the employment itself can be found in the Python Jupyter notebook in folder "Modelling"
 - Deployment - Paper describes the choices made for deployment, folder "app" contains the final product as made available through Docker containerization, to be run as described in the next paragraph
 ## Launch
